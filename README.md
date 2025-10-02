@@ -5,7 +5,8 @@
 
 - **소요 시간:** 약 1시간 이내
 - **기술 스택:** HTML, CSS, JavaScript
-사이트: http://192.168.10.142:8080/
+- **배포 주소:** https://color-game-y7z2x9.netlify.app
+
 ---
 
 ## 바이브 코딩 개발 로그
