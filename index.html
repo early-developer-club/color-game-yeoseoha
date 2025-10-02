@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>절대색감 테스트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>절대색감 테스트</h1>
+        <div class="info">
+            <div id="stage-container">Stage: <span id="stage">1</span></div>
+            <div id="timer-container">Time: <span id="timer">60</span>s</div>
+        </div>
+    </header>
+
+    <main>
+        <div id="game-board"></div>
+    </main>
+
+    <div id="modal" class="active">
+        <div class="modal-content">
+            <h2>절대색감 테스트</h2>
+            <p>60초 안에 다른 색상의 사각형을 찾아 최대한 많은 단계를 클리어하세요.</p>
+            <button id="start-button">게임 시작</button>
+            <div id="result-container" style="display: none;">
+                <h3>게임 종료!</h3>
+                <p>최종 단계: <span id="final-stage">0</span></p>
+                <p>맞춘 개수: <span id="final-correct">0</span></p>
+                <p>틀린 개수: <span id="final-incorrect">0</span></p>
+                <button id="restart-button">다시 시작</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
